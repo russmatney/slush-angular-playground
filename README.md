@@ -1,8 +1,8 @@
 slush-angular-playground
 ========================
 
-> A [slush](http://slushjs.github.io) generator for [angular-playground](https://github.com/russmatney/angular-playground),
-a tiny angular app with live-reload intended for jumping quickly into a demo, blog post, presentation, hack-session, whatever.
+> A [slush](http://slushjs.github.io) generator for [angular-playground](https://github.com/russmatney/angular-playground)
+(a tiny angular app with live-reload intended for jumping quickly into a demo, blog post, presentation, hack-session, whatever.)
 
 ## Get started
 
@@ -12,7 +12,7 @@ Install `slush-angular-playground` globally:
 npm install -g slush-angular-playground
 ```
 
-(If you haven't already):
+If you haven't already:
 
 ```bash
 npm install -g slush
@@ -34,5 +34,10 @@ Give that bad boy a name and then dive in.
 gulp
 ```
 
-`[localhost:3000](http://localhost:3000)`
+Route to [`localhost:3000`](http://localhost:3000)
 
+## Contains
+
+- basic gulpfile with livereload on file-save (.js or .html files)
+- bootstrap and angular included via bower
+- one controller hooked into the index.html for quick demo purposes

@@ -1,6 +1,6 @@
 {
   "name": "slush-angular-playground",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "stupid-simple, clone-able live-reload playground for front-end angular demoing",
   "author": "Russell Matney",
   "license": "MIT",

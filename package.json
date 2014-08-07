@@ -1,0 +1,23 @@
+{
+  "name": "slush-angular-playground",
+  "version": "0.0.1",
+  "description": "stupid-simple, clone-able live-reload playground for front-end angular demoing",
+  "author": "Russell Matney",
+  "license": "MIT",
+  "homepage":"https://github.com/russmatney/slush-angular-playground",
+  "main": "slushfile.js",
+  "repository": {
+    "type":"git",
+    "url":"git://github.com/slushjs/slush-angular-playground"
+  },
+  "keywords": [
+    "slushgenerator",
+    "angular",
+    "angularjs",
+    "gulp"
+  ],
+  "dependencies": {
+    "gulp-connect": "~2.0.6",
+    "gulp": "~3.8.7"
+  }
+}

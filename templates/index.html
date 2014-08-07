@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title><%= name %></title>
+
+  <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+</head>
+<body ng-app='app'>
+
+    <div class="jumbotron">
+      <h1><%= name %></h1>
+    </div>
+
+    <div class="row" ng-init="hello = 'type me!'">
+      <h2 class="col-md-3">{{hello}}</h2>
+      <div class="col-md-3">
+        <input type="text" class="form-control" ng-model="hello">
+      </div>
+    </div>
+    <br>
+    <br>
+
+    <div ng-controller="Controller">
+      hello, {{hi}}
+    </div>
+
+  <script src="./bower_components/angularjs/angular.min.js"></script>
+  <script src="./scripts/controller.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "<%= nameDashed %>",
+  "version": "0.1.0",
+  "authors": [
+    "Russell Matney <russell.matney@gmail.com>"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angularjs": "~1.2.21",
+    "bootstrap": "~3.2.0"
+  }
+}

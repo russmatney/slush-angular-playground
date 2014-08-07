@@ -2,6 +2,7 @@ var gulp = require('gulp'),
     inquirer = require('inquirer'),
     template = require('gulp-template'),
     conflict = require('gulp-conflict'),
+    install = require('gulp-install'),
     _ = require('underscore.string');
 
 gulp.task('default', function(done) {
